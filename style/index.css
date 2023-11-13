@@ -1,0 +1,153 @@
+
+
+/*---------HEADER---------*/
+.navbar {
+  height:70px;
+}
+.nav-item {
+  margin-left: 15px;
+}
+ .nav-item:hover {
+  background-color: lightseagreen;
+  border-radius:15px;
+ }
+.template {
+  position: relative;
+  height: 700px;
+  border-radius: 10px;
+  background-image:url("https://images.pexels.com/photos/4393021/pexels-photo-4393021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+}
+.text {
+  max-width: 700px;
+  margin: 0px auto;
+}
+.text2 {
+  max-width: 600px;
+  margin: 0px auto;
+  font-size: 20px;
+}
+.btn1 {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  padding: 15px 50px;
+  border-radius: 30px;
+  margin: 0px auto;
+  border: none;
+  opacity: 0.9;
+}
+.btn1:hover {
+  background-color: rgb(0, 255, 0);
+  color: white;
+}
+.btn1 a {
+  text-decoration: none;
+  color: black;
+}
+
+/*-------------FOOTER IS START----------*/
+.footer {
+  padding-top: 50px; 
+  padding-left: 10px;
+  margin-top: 100px;
+  border-radius: 10px 10px 0px 0px;
+  background-image: url("https://media.istockphoto.com/id/959611852/photo/luxury-private-dinner-rooftop-in-bangkok-thailand.jpg?s=612x612&w=0&k=20&c=l4vekaKQ2-P5GEqP_8-MNM25NxhKjAhc9j31f2BN8vM=");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+
+}
+.footer-left-text {
+  width: 25%;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight:bold;
+}
+.footer-left-text img {
+  width: 100%;
+}
+.footer-left-text p {
+  margin-top: 50px;
+}
+.footer-text-middle {
+  width: 30%;
+  padding-right: 20px;
+  margin-left: 40px;
+  height: 100%;
+  font-weight:bold;
+}
+.footer-text-middle h1 {
+  color: #435062;
+  font-weight:bold;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.footer-text-middle ul li {
+  list-style-type: none;
+  padding: 25px 0px;
+  font-size: 20px;
+}
+.footer-text-middle ul {
+  border-right: 2px solid #435062;
+}
+.footer-text-middle .fa-solid {
+  font-size: 25px;
+  margin-right: 10px;
+  color: red;
+}
+.footer-text-middle ul li:first-child{
+  padding-top: 0px;
+}
+.footer-text-middle ul li:last-child{
+  padding-bottom: 0px;
+}
+.footer-text-middle ul li a {
+  text-decoration: none;
+  color: #435062;
+  font-weight:bold;
+}
+.footer-text-middle ul li a:hover {
+  border-bottom: 1px solid #435062;
+}
+.footer-right-text{
+  width: 30%;
+  font-weight:bold;
+}
+.footer-right-text h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #425062;
+  font-weight:bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-right-text p {
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+.footer-right-text ul li {
+list-style-type: none;
+width: 200px;
+padding: 20px 0px;
+font-size: 20px;
+}
+.footer-righ-icon-container {
+  display: flex;
+}
+.footer-right-text .fa-solid {
+  color: red;
+  font-size: 45px;
+  margin-right: 10px;
+}
+.link-icon ul {
+  display: flex;
+}
+.link-icon ul li a .fa-brands, .fa-solid {
+  color: red;
+  font-size: 25px;
+}
